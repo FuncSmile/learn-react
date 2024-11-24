@@ -10,8 +10,8 @@ Currently, two official plugins are available:
 # learn-react
 
 1. initialisasi project react ✅
-2. learn component & props
-3. learn atomic design
+2. learn component & props ✅
+3. learn atomic design ✅
 4. implementation atomic design
 5. learn react router
 6. conditional rendering
