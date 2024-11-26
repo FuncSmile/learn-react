@@ -1,19 +1,17 @@
 import PropTypes from "prop-types";
 
 const Button = (props) => {
-  const { color, colorHov } = props;
+  const { classname, children } = props;
   return (
-    <button
-      className={`bg-${color} hover:bg-${colorHov} text-white font-bold py-2 px-4 rounded`}
-    >
-      click me!
+    <button className={`${classname} text-white font-bold py-2 px-4 rounded`}>
+      {children}
     </button>
   );
 };
 
 Button.propTypes = {
-  color: PropTypes.string,
-  colorHov: PropTypes.string,
+  classname: PropTypes.string,
+  children: PropTypes.string,
 };
 
 export default Button;
