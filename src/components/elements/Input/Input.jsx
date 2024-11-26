@@ -8,6 +8,7 @@ const Input = (props) => {
       id={Id}
       placeholder={Placeholder}
       className="w-full border border-gray-400 rounded-md px-3 py-1 text-slate-400 outline-indigo-500"
+      autoComplete="off"
     />
   );
 };

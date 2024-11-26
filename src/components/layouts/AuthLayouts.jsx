@@ -16,7 +16,7 @@ const AuthLayouts = (props) => {
 AuthLayouts.propTypes = {
   Title: PropTypes.string,
   Subtitle: PropTypes.string,
-  children: PropTypes.string,
+  children: PropTypes.object,
 };
 
 export default AuthLayouts;

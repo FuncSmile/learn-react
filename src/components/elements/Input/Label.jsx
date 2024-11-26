@@ -11,7 +11,7 @@ const Label = (props) => {
 
 Label.propTypes = {
   HtmlFor: PropTypes.string,
-  children: PropTypes.string,
+  children: PropTypes.array,
 };
 
 export default Label;

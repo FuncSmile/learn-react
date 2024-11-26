@@ -1,11 +1,8 @@
-import LoginPage from "./pages/login";
 // import RegisterPage from "./pages/register";
-
 function App() {
   return (
     <>
-      <LoginPage />
-      {/* <RegisterPage /> */}
+      <h1>LandingPage</h1>
     </>
   );
 }
