@@ -13,8 +13,8 @@ Currently, two official plugins are available:
 2. learn component & props ✅
 3. learn atomic design ✅
 4. implementation atomic design ✅
-5. learn react router
-   - install react-router-dom
+5. learn react router ✅
+   - install react-router-dom ✅
 6. conditional rendering
 7. nested component
 8. rendering list
